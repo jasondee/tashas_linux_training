@@ -7,7 +7,7 @@ h1 {
     color: #ffffff;
     padding-left: 25px;
     font-size: 4em;
-    border-left: thin #FF0080 solid; 
+    border-left: thin #000000 solid; 
     margin-left: 10%;
 }
     
@@ -34,10 +34,6 @@ p {
 .content {
     height: 100%;
     width: 100%;
-    background-image: url("https://source.unsplash.com/Ax0zFAnKtio");
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
     padding-top: 3em;
     padding-bottom: 2em;
 }
@@ -61,7 +57,7 @@ p {
 #logopic {
     grid-column: 6;
     grid-row: 1 ;
-    color: #FF0080;
+    color: #000000;
     display: block;
     margin: auto;
     font-size: 2em;
@@ -70,7 +66,7 @@ p {
 #logo {
     grid-column: 6;
     grid-row: 2 ;
-    color: #FF0080;
+    color: #000000;
     display: block;
     margin: auto;
     font-size: 1em;
@@ -81,7 +77,7 @@ p {
 #logotext {
     grid-column: 6;
     grid-row: 3 ;
-    color: #FF0080;
+    color: #000000;
     display: block;
     margin: auto;
     font-size: .5em;
@@ -99,30 +95,19 @@ p {
 }
 
 a:link{
-  color:#C8A2C8;
+  color:#000000;
 }
 a:visited{
-  color:#C8A2C8;
+  color:#000000;
 }
 a:hover{
-  color:#C8A2C8;
+  color:#000000;
 }
 a:focus{
-  color:#C8A2C8;
+  color:#000000;
 }
 a:active{
-  color:#C8A2C8;
-}
-
-.content {
-    height: 100%;
-    width: 100%;
-    background-image: url("https://source.unsplash.com/Ax0zFAnKtio");
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 3em;
-    padding-bottom: 2em;
+  color:#000000;
 }
 
 .marginator {
@@ -131,21 +116,10 @@ a:active{
     margin-bottom: 1em;
 }
 
-.content {
-    height: 1000px;
-    width: 100%;
-    background-image: url("https://source.unsplash.com/Ax0zFAnKtio");
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 3em;
-    padding-bottom: 2em;
-}
-
 .contact {
     height: 1000px;
     width: 100%;
-    background-image: url("https://source.unsplash.com/BdcAYjxq26s");
+    background-image: url("https://source.unsplash.com/SHcHVFhz7-M");
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -157,7 +131,7 @@ a:active{
 .boots {
     height: 1000px;
     width: 100%;
-    background-image: url("https://source.unsplash.com/zi2zXhEFbiA");
+    background-image: url("https://source.unsplash.com/phIFdC6lA4E");
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -168,7 +142,7 @@ a:active{
 .bewbs {
     height: 1000px;
     width: 100%;
-    background-image: url("https://source.unsplash.com/LjAU2mwdmX0");
+    background-image: url("https://source.unsplash.com/Tf2mrYEgQd4");
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -179,10 +153,14 @@ a:active{
 .about {
     height: 1000px;
     width: 100%;
-    background-image: url("https://source.unsplash.com/i07ss4dGzIo");
+    background-image: url("https://source.unsplash.com/eZF9nZKBev8");
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 3em;
     padding-bottom: 2em;
+}
+
+.black {
+    color: #000000;
 }
